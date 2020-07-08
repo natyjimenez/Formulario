@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de validación</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+
+    <h1>Formulario de registro</h1>
+    <form class="form-register" onsubmit="return validar();">
+        <div class="contenedor-inputs">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="inputcss" maxlength="30">
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="inputcss" maxlength="80">
+            <input type="email" id="correo" name="correo" placeholder="Correo" class="inputcss" maxlength="100">
+            <input type="text" id="usuario" name="usuario" placeholder="Usuario" class="inputcss" maxlength="20">
+            <input type="password" id="pass" name="pass" placeholder="Contraseña" class="inputcss" maxlength="20">
+            <input type="text" id="telefono" name="telefono" placeholder="Teléfono (911111111)" class="inputcss"
+                maxlength="15">
+            <button>Registrar</button>
+        </div>
+    </form>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
